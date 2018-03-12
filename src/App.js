@@ -1,10 +1,4 @@
-/**
- * Reference external classes
- * or functions to be used in the app.
- *
- * Parcel will bundle them into one file
- * that the brower can understand.
- */
+
 import Home from './Home'
 
 /**

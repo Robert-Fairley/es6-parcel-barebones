@@ -1,4 +1,11 @@
 /**
+ * Import the styles local to the `Home` page
+ * component. Reference the individual classes
+ * by deriving them from the imported styles object.
+ */
+import HomeStyles from './Home.css'
+
+/**
  * Home
  * @class
  *
@@ -23,7 +30,7 @@ class Home {
    *
    * @desc The `render` method
    * returns a string literal containing
-   * the HTML to be displayed when the 
+   * the HTML to be displayed when the
    * method is called. It doesn't perform
    * any action on its own except provide
    * the string to whatever instance is calling
@@ -35,19 +42,17 @@ class Home {
    */
   render() {
     return `
-<div class="intro">
+<div class="${HomeStyles.intro}">
   <h1>Hello, ${this.name}!</h1>
-</div>
-	  `;
+</div>`;
   }
 }
 
 /**
- * Export the `Home` class so that it 
+ * Export the `Home` class so that it
  * can be imported and used from other files.
  *
  * Since it's a default export, it must be
  * imported without braces `{}`.
  */
 export default Home;
-
