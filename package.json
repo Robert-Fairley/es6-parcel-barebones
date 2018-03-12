@@ -1,0 +1,31 @@
+{
+  "name": "es6-parcel-barebones",
+  "version": "1.0.0",
+  "description": "A boilerplate front-end web application for developing in ES6 using Parcel as a bundler.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "prebuild": "npm test",
+    "build": "parcel build src/index.html",
+    "watch": "parcel watch src/index.html",
+    "test": "./node_modules/mocha/bin/mocha --require babel-register"
+  },
+  "author": "Robert Fairley <robert.fairley@rci.rogers.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "mocha": "^5.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "jsdom": "^11.6.2",
+    "mocha-jsdom": "^1.1.0",
+    "postcss-modules": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robert-Fairley/es6-parcel-barebones.git"
+  }
+}

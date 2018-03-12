@@ -1,0 +1,11 @@
+# Ignore these files
+
+### General Troublemakers
+.DS_Store
+
+### Parcel Files
+/.cache/
+/dist/
+
+### Node Files
+/node_modules/
