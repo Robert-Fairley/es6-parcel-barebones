@@ -42,6 +42,8 @@ npm test
 
 ### Docker Container
 
+***Note***: *It is not recommended that you use the Docker image for production. Once built, the static files exist in "public". Place these files in the root folder of your static web server.*
+
 To run the Docker image you can either pull the image from DockerHub:
 ```shell
 docker pull robertfairley/es6-parcel-barebones
