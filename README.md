@@ -55,7 +55,7 @@ within the Docker container environment.
 1. Clone this repo.
 2. Build the image:
 ```shell
-docker build -t [IMAGE_NAME]
+docker build -t [IMAGE_NAME] .
 ```
 3. Run the container:
 ```shell
