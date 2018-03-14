@@ -2,7 +2,7 @@
 # ES6-PARCEL-BAREBONES DOCKERFILE
 #
 FROM node:latest 
-MAINTAINER Robert Fairley "robert.fairley@rci.rogers.com"
+MAINTAINER Robert Fairley "rrafairley@gmail.com"
 
 # Process the app
 WORKDIR /tmp
